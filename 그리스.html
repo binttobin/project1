@@ -3,6 +3,52 @@
 <head>
 <title>BINTTOBIN IN GREECE</title>
 <meta charset="utf-8">
+<style>
+body{
+  margin:0;
+}
+a {
+  color:black;
+  text-decoration: none;
+  }
+h1 {
+  font-size:45px;
+  text-align:center;
+  border-bottom: 2px solid darkturquoise;
+  margin:0;
+  padding:20px;
+}
+ol {
+  border-right:2px solid darkturquoise;
+  width:100px;
+  margin:0;
+  padding:33px;
+  padding-top: 23px;
+  padding-right: 10px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol {
+  padding-left:45px;
+}
+#grid #article{
+  padding-left: 45px;
+}
+@media(max-width:700px){
+  #grid{
+    display: block;
+  }
+  ol {
+    border-right:none;
+  }
+  h1 {
+    border-bottom:none;
+  }
+}
+
+</style>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131796929-1"></script>
@@ -16,24 +62,27 @@
 
 </head>
 <body>
-  <h1><a href="유럽여행.html">BINTTOBIN</a></h1>
-  <ol>
-    <li><a href="네덜란드.html">네덜란드</a></li>
-    <li><a href="독일.html">독일</a></li>
-    <li><a href="그리스.html">그리스</a></li>
-    <li><a href="영국.html">영국</a></li>
-    <li><a href="스페인.html">스페인</a></li>
-    <li><a href="포르투갈.html">포르투갈</a></li>
-    <li><a href="프랑스.html">프랑스</a></li>
-    <li><a href="이탈리아.html">이탈리아</a></li>
-    <li><a href="오스트리아.html">오스트리아</a></li>
-    <li><a href="헝가리.html">헝가리</a></li>
-    <li><a href="체코.html">체코</a></li>
-  </ol>
-<h2>BINTTOBIN IN GREECE</h2>
-<p>
-  그리스 여행내용
-</p>
+  <h1><a href="유럽여행.html" style="color:darkturquoise">BINTTOBIN</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="네덜란드.html">네덜란드</a></li>
+      <li><a href="독일.html">독일</a></li>
+      <li><a href="그리스.html" style="color:darkturquoise">그리스</a></li>
+      <li><a href="영국.html">영국</a></li>
+      <li><a href="스페인.html">스페인</a></li>
+      <li><a href="포르투갈.html">포르투갈</a></li>
+      <li><a href="프랑스.html">프랑스</a></li>
+      <li><a href="이탈리아.html">이탈리아</a></li>
+      <li><a href="오스트리아.html">오스트리아</a></li>
+      <li><a href="헝가리.html">헝가리</a></li>
+      <li><a href="체코.html">체코</a></li>
+    </ol>
+    <div id="article">
+      <h2>BINTTOBIN IN GREECE</h2>
+      <p>
+        그리스 여행내용
+      </p>
+    </div>
 
 
 
