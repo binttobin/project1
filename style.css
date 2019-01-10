@@ -8,17 +8,18 @@ a {
 h1 {
   font-size:45px;
   text-align:center;
-  border-bottom: 2px solid crimson;
+  border-bottom: 3px dotted black;
   margin:0;
   padding:20px;
 }
 ol {
-  border-right:2px solid crimson;
+  border-right:3px dotted black;
   width:100px;
   margin:0;
   padding:33px;
   padding-top: 23px;
   padding-right: 10px;
+  font-weight:bold;
 }
 #grid{
   display: grid;
@@ -29,6 +30,7 @@ ol {
 }
 #grid #article{
   padding-left: 45px;
+  padding-right: 22px;
 }
 @media(max-width:700px){
   #grid{
